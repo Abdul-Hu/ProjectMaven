@@ -6,8 +6,6 @@ import java.util.Properties;
 
 public class PropertyReaderUtils {
 	
-	
-	
 	public static String getProperty(String property) {
 		Properties props = new Properties();
 		String propValue = null;
