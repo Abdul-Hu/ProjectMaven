@@ -22,7 +22,7 @@ public class Commons extends Setup {
 		driver.findElement(locator).clear();
 		driver.findElement(locator).sendKeys(value);
 	}
-	
+	///What up danny
 	//Find the button. it makes sure it is clickable and then clicks it
 	public void clickElement(By locator) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
