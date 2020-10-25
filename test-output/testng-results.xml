@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15871" started-at="2020-09-30T17:20:46 EDT" finished-at="2020-09-30T17:21:02 EDT">
+  <suite name="Default suite" duration-ms="19786" started-at="2020-10-16T14:51:42 EDT" finished-at="2020-10-16T14:52:02 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15871" started-at="2020-09-30T17:20:46 EDT" finished-at="2020-09-30T17:21:02 EDT">
+    <test name="Default test" duration-ms="19786" started-at="2020-10-16T14:51:42 EDT" finished-at="2020-10-16T14:52:02 EDT">
       <class name="maventest.ProjectMaven.WordPressLoginTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@2833cc44]" name="loginTest" duration-ms="15010" started-at="2020-09-30T17:20:46 EDT" finished-at="2020-09-30T17:21:01 EDT">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@bd8db5a]" name="loginTest" duration-ms="19061" started-at="2020-10-16T14:51:42 EDT" finished-at="2020-10-16T14:52:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@2833cc44]" name="afterMethod" is-config="true" duration-ms="806" started-at="2020-09-30T17:21:01 EDT" finished-at="2020-09-30T17:21:02 EDT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@bd8db5a]" name="afterMethod" is-config="true" duration-ms="689" started-at="2020-10-16T14:52:01 EDT" finished-at="2020-10-16T14:52:02 EDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=WordPressLoginTest.loginTest()[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@2833cc44] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=WordPressLoginTest.loginTest()[pri:0, instance:maventest.ProjectMaven.WordPressLoginTest@bd8db5a] output={null}]]]>
               </value>
             </param>
           </params>

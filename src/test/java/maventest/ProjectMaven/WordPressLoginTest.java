@@ -8,6 +8,7 @@ import com.pageObjects.WordPressHomePageObjects;
 import com.pageObjects.WordPressLoginPageObjects;
 
 import ProjectMaven.Commons;
+import ProjectMaven.PropertyReaderUtils;
 import ProjectMaven.Setup;
 
 public class WordPressLoginTest extends Setup {
@@ -29,7 +30,9 @@ public class WordPressLoginTest extends Setup {
 		//Initialize the driver
 		initTest();
 		
-		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
+		//driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
+		
+		driver.get(PropertyReaderUtils.getProperty("url"));
 		
 		commons.typeValue(wpPO.loginField(), "opensourcecms");
 		
@@ -54,7 +57,7 @@ public class WordPressLoginTest extends Setup {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		} System.out.println(System.getProperty("user.dir"));
 	}
 
 }
